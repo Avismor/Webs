@@ -16,8 +16,8 @@
 <?php
 if (!isset($_COOKIE['User'])) {
 ?>
-<h1 сlass="col-12">Авторизуйтесь пожалуйста</h1>
-<a href="/registration.php">Зарегистрируйтесь (если получится)</a> или <a href="/login.php">войдите</a>
+<h1 сlass="col-12">Авторизация тут</h1>
+<a href="/registration.php">Зарегистрируйтесь (если получится)</a> <br> или <br> <a href="/login.php">войдите</a>
 <?php
 } else {
     //подключение к бд
