@@ -9,7 +9,7 @@ die("Ошибка подключения: " . mysqli_connect_error());
 }
 $sql = "CREATE DATABASE IF NOT EXISTS $dbName";
 if (!mysqli_query($link, $sql)) {
-echo "Не удалось создать БД";
+echo "Ошибка с бд";
 }
 mysqli_close($link);
 $link = mysqli_connect($servername, $username, $password, $dbName);
@@ -20,7 +20,7 @@ email VARCHAR(50) NOT NULL,
 pass VARCHAR(50) NOT NULL
 )";
 if(!mysqli_query($link, $sql)){
-echo "Нe удалось создать таблицу Users";
+echo "Ошибка с Users";
 }
 $sql = "CREATE TABLE IF NOT EXISTS posts(
 id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -28,7 +28,7 @@ title VARCHAR(20) NOT NULL,
 main_text VARCHAR(400) NOT NULL
 )";
 if(!mysqli_query($link,$sql)){
-echo "Не удалось создать таблицу posts";
+echo "Ошибка с posts";
 }
 mysqli_close($link);
 ?>

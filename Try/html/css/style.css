@@ -4,9 +4,9 @@
 	font-family: 'Open Sans', 'sans-serif', 'FontAwesome';
 }
 body {
-    background-color: #000000;
+    background-color: #4c515e;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(145, 56, 247)
+    color: rgb(185, 194, 223)
 }
 .my_photo {
     background: url(../image/mem.jpg) ;

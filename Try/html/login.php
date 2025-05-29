@@ -37,7 +37,7 @@ $link = mysqli_connect('db', 'root', 'kali', 'first');
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
-  if ( !$username || !$password) die ('Пожалуйста введите все значения!');{}
+  if ( !$username || !$password) die ('Пожалуйста не забудьте ВСЕ значения');{}
     
   $sql = "SELECT * FROM users WHERE username='$username' AND pass='$password'";
 
@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
     setcookie("User", $username, time()+7200);
     header('Location: profile.php');
   } else {
-    echo "не правильное имя или пароль";
+    echo "неправильное имя или пароль, или всё сразу";
   }
 
 }

@@ -16,13 +16,13 @@
 <?php
 if (!isset($_COOKIE['User'])) {
 ?>
-<h1 сlass="col-12">Авторизуйтесь!</h1>
-<a href="/registration.php">Зарегистрируйтесь</a> или <a href="/login.php">войдите</a>!
+<h1 сlass="col-12">Авторизуйтесь пожалуйста</h1>
+<a href="/registration.php">Зарегистрируйтесь (если получится)</a> или <a href="/login.php">войдите</a>
 <?php
 } else {
     //подключение к бд
     ?>
-<h1 сlass="col-12">Список постов!</h1>
+<h1 сlass="col-12">Список постов</h1>
 <?php
     $link = mysqli_connect('db', 'root', 'kali', 'first');
 $sql = "SELECT * FROM posts";

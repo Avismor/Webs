@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вернер В.С.</title>
+    <title>Kris Cher</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-9">
                     <div class="nav_text">
-                        уже не заголовок
+                        точно не заголовок
                     </div>
                     <div class="col-3 nav_logo">
                     </div>
@@ -27,14 +27,12 @@
         <div class="row">
             <div class="col-8">
                 <h2>
-                    мне лень придумывать какойто текст поэтому
-                    я просто спрошу как дела? как настроение?
-                    как погодка? может сразу зачтете модуль?
+                    Тесттесттест (кто не понял - это тест)
                 </h2>
             </div>
             <div class="col-8">
                 <p>
-                    чтото типа второго блока
+                    Второй тест тут
                 </p>
             </div>
             <div class="col-4">
@@ -43,7 +41,7 @@
                 </div>
                 <div class="row">
                         <p class="title_photo">
-                            Вернер В.С.
+                            Крис.Чер.
                         </p>
                 </div>
             </div>
@@ -63,14 +61,14 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="hello">
-                        Привет, <?php echo $_COOKIE['User']; ?>
+                        Тык, <?php echo $_COOKIE['User']; ?>
                     </h1>
                 </div>
                 <div class="col-12">
                     <form method="POST" action="profile.php" enctype="multipart/form-data" name="upload">
                         <textarea type="text" cols="150"class="form" type="text" name="title" placeholder="Заголовок вашего поста"></textarea>
                         <textarea name="text" cols="150" rows="10" placeholder="Введите текст вашего поста …"></textarea>
-                        <button type="submit" id="myButton" class="btn_red" name="submit">Сохранить пост!</button>
+                        <button type="submit" id="myButton" class="btn_red" name="submit">Сохранить пост?</button>
                         <input type="file" name="file" /><br>
                     </form>
                 </div>
