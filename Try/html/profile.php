@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-9">
                     <div class="nav_text">
-                        точно не заголовок
+                        Добро пожаловать отсюда
                     </div>
                     <div class="col-3 nav_logo">
                     </div>
@@ -32,10 +32,8 @@
             </div>
             <div class="col-8">
                 <p>
-                    Второй тест тут
-                </p>
-            </div>
-            <div class="col-4">
+                    Второй тест тут <br>
+                </p> 
                 <div class="row my_photo">
 
                 </div>
@@ -50,12 +48,12 @@
 
     <div class="container">
         <div class="row">
-        <div class=" button_js col-12">
-        <button id="myButton">Click me</button>
-        <p id="demo"></p>
+            <div class=" button_js col-12">
+                <button id="myButton">Тут ничего нет</button>
+                <p id="demo"></p>
+            </div>
         </div>
-        </div>
-        </div>
+    </div>
 
         <div class="container">
             <div class="row">
@@ -66,8 +64,8 @@
                 </div>
                 <div class="col-12">
                     <form method="POST" action="profile.php" enctype="multipart/form-data" name="upload">
-                        <textarea type="text" cols="150"class="form" type="text" name="title" placeholder="Заголовок вашего поста"></textarea>
-                        <textarea name="text" cols="150" rows="10" placeholder="Введите текст вашего поста …"></textarea>
+                        <textarea type="text" cols="150"class="form" type="text" name="title" placeholder="Заголовок для поста"></textarea>
+                        <textarea name="text" cols="150" rows="10" placeholder="Введите текст поста …"></textarea>
                         <button type="submit" id="myButton" class="btn_red" name="submit">Сохранить пост?</button>
                         <input type="file" name="file" /><br>
                     </form>
