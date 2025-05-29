@@ -113,7 +113,7 @@ width: 25%;
 #signin  input[type="text"], #signin  input[type="password"], #signin button[type="submit"], #signin input[type="email"]{
 	background: rgb(28, 30, 33);
 	box-shadow: inset -100px -100px 0 rgb(28, 30, 33); /*Prevent yellow autofill color*/
-	color: rgb(52, 56, 61);
+	color: rgb(216, 223, 233);
 }
 #signin  input[type="text"], #signin  input[type="password"], #signin input[type="email"]{
 	position: relative;
@@ -134,7 +134,7 @@ width: 25%;
 	position: absolute;
 	width: 52px;
 	height: 52px;
-	color: rgb(52, 56, 61);
+	color: rgb(216, 223, 233);
 	border-radius: 50px;
 	outline: 0;
 	z-index: 2;
@@ -153,14 +153,14 @@ width: 25%;
 	cursor: pointer;
 }
 #signin p {
-	color: rgb(79, 85, 97);
+	color: rgb(216, 223, 233);
 	padding: 0 20px;
 	font-weight: 700;
 	font-size: 12px;
 	margin: 5px 0 0 0;
 }
 #signin p > a{
-	color: rgb(111, 119, 135);
+	color: rgb(216, 223, 233);
 	text-decoration: none;
 }
 #signin p > a:hover{
